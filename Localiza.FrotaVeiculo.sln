@@ -1,0 +1,84 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32126.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{0F6B00CB-6E69-453C-8F9E-2A08C061A56E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Localiza.FrotaVeiculo.Application", "Application\Localiza.FrotaVeiculo.Application\Localiza.FrotaVeiculo.Application.csproj", "{A9797C89-7B35-48E2-9EC2-B729DB4C6375}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{D8DB2C58-E8D3-4F16-BF60-A27C32F1296F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra", "Infra", "{00EC148E-C3A2-49F9-9A6A-3F6468D609CA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{6E23E054-C7F5-40A7-9DB2-153B78AE088E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Localiza.FrotaVeiculo.Infra.Data", "Infra\Data\Localiza.FrotaVeiculo.Infra.Data\Localiza.FrotaVeiculo.Infra.Data.csproj", "{C5BE550F-9BEC-4E14-BB52-5FBEC80E2827}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{7D198172-9D26-45D3-9DC2-3E88F01DFA00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Localiza.FrotaVeiculo.Domain", "Domain\Localiza.FrotaVeiculo.Domain\Localiza.FrotaVeiculo.Domain.csproj", "{ACAC4EAF-3F5F-4EC4-9F3F-DF987E673F23}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CrossCutting", "CrossCutting", "{FBF64714-0331-44FF-80BE-D28549421014}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Localiza.FrotaVeiculo.Infra.CrossCutting", "Infra\CrossCutting\Localiza.FrotaVeiculo.Infra.CrossCutting\Localiza.FrotaVeiculo.Infra.CrossCutting.csproj", "{F2C22E47-9C33-4A8E-A2A2-95F1977E8A12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Localiza.FrotaVeiculo.Service", "Service\Localiza.FrotaVeiculo.Service\Localiza.FrotaVeiculo.Service.csproj", "{3D971070-1A36-41CF-8CB1-78612FCDE7F6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4E1D2BB2-34A4-4514-9C8D-8FCA2EBB750A}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{0A80D97A-C645-4A9A-B12E-81458DA9F6EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Localiza.FrotaVeiculo.Test", "Test\Localiza.FrotaVeiculo.Test\Localiza.FrotaVeiculo.Test.csproj", "{D9F230BC-D4BA-4909-A340-1B8856D5E841}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9797C89-7B35-48E2-9EC2-B729DB4C6375}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9797C89-7B35-48E2-9EC2-B729DB4C6375}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9797C89-7B35-48E2-9EC2-B729DB4C6375}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9797C89-7B35-48E2-9EC2-B729DB4C6375}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5BE550F-9BEC-4E14-BB52-5FBEC80E2827}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5BE550F-9BEC-4E14-BB52-5FBEC80E2827}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5BE550F-9BEC-4E14-BB52-5FBEC80E2827}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5BE550F-9BEC-4E14-BB52-5FBEC80E2827}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACAC4EAF-3F5F-4EC4-9F3F-DF987E673F23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACAC4EAF-3F5F-4EC4-9F3F-DF987E673F23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACAC4EAF-3F5F-4EC4-9F3F-DF987E673F23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACAC4EAF-3F5F-4EC4-9F3F-DF987E673F23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2C22E47-9C33-4A8E-A2A2-95F1977E8A12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2C22E47-9C33-4A8E-A2A2-95F1977E8A12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2C22E47-9C33-4A8E-A2A2-95F1977E8A12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2C22E47-9C33-4A8E-A2A2-95F1977E8A12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D971070-1A36-41CF-8CB1-78612FCDE7F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D971070-1A36-41CF-8CB1-78612FCDE7F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D971070-1A36-41CF-8CB1-78612FCDE7F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D971070-1A36-41CF-8CB1-78612FCDE7F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9F230BC-D4BA-4909-A340-1B8856D5E841}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9F230BC-D4BA-4909-A340-1B8856D5E841}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9F230BC-D4BA-4909-A340-1B8856D5E841}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9F230BC-D4BA-4909-A340-1B8856D5E841}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A9797C89-7B35-48E2-9EC2-B729DB4C6375} = {0F6B00CB-6E69-453C-8F9E-2A08C061A56E}
+		{6E23E054-C7F5-40A7-9DB2-153B78AE088E} = {00EC148E-C3A2-49F9-9A6A-3F6468D609CA}
+		{C5BE550F-9BEC-4E14-BB52-5FBEC80E2827} = {6E23E054-C7F5-40A7-9DB2-153B78AE088E}
+		{ACAC4EAF-3F5F-4EC4-9F3F-DF987E673F23} = {D8DB2C58-E8D3-4F16-BF60-A27C32F1296F}
+		{FBF64714-0331-44FF-80BE-D28549421014} = {00EC148E-C3A2-49F9-9A6A-3F6468D609CA}
+		{F2C22E47-9C33-4A8E-A2A2-95F1977E8A12} = {FBF64714-0331-44FF-80BE-D28549421014}
+		{3D971070-1A36-41CF-8CB1-78612FCDE7F6} = {7D198172-9D26-45D3-9DC2-3E88F01DFA00}
+		{D9F230BC-D4BA-4909-A340-1B8856D5E841} = {0A80D97A-C645-4A9A-B12E-81458DA9F6EE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F1E62B57-D667-44C1-9C2C-415DAE37B101}
+	EndGlobalSection
+EndGlobal
