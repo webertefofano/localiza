@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.32126.315
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{0F6B00CB-6E69-453C-8F9E-2A08C061A56E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Localiza.FrotaVeiculo.Application", "Application\Localiza.FrotaVeiculo.Application\Localiza.FrotaVeiculo.Application.csproj", "{A9797C89-7B35-48E2-9EC2-B729DB4C6375}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Localiza.FrotaVeiculo.Application", "Application\Localiza.FrotaVeiculo.Application\Localiza.FrotaVeiculo.Application.csproj", "{A9797C89-7B35-48E2-9EC2-B729DB4C6375}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{D8DB2C58-E8D3-4F16-BF60-A27C32F1296F}"
 EndProject
@@ -13,17 +13,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra", "Infra", "{00EC148E
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{6E23E054-C7F5-40A7-9DB2-153B78AE088E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Localiza.FrotaVeiculo.Infra.Data", "Infra\Data\Localiza.FrotaVeiculo.Infra.Data\Localiza.FrotaVeiculo.Infra.Data.csproj", "{C5BE550F-9BEC-4E14-BB52-5FBEC80E2827}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Localiza.FrotaVeiculo.Infra.Data", "Infra\Data\Localiza.FrotaVeiculo.Infra.Data\Localiza.FrotaVeiculo.Infra.Data.csproj", "{C5BE550F-9BEC-4E14-BB52-5FBEC80E2827}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{7D198172-9D26-45D3-9DC2-3E88F01DFA00}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Localiza.FrotaVeiculo.Domain", "Domain\Localiza.FrotaVeiculo.Domain\Localiza.FrotaVeiculo.Domain.csproj", "{ACAC4EAF-3F5F-4EC4-9F3F-DF987E673F23}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Localiza.FrotaVeiculo.Domain", "Domain\Localiza.FrotaVeiculo.Domain\Localiza.FrotaVeiculo.Domain.csproj", "{ACAC4EAF-3F5F-4EC4-9F3F-DF987E673F23}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CrossCutting", "CrossCutting", "{FBF64714-0331-44FF-80BE-D28549421014}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Localiza.FrotaVeiculo.Infra.CrossCutting", "Infra\CrossCutting\Localiza.FrotaVeiculo.Infra.CrossCutting\Localiza.FrotaVeiculo.Infra.CrossCutting.csproj", "{F2C22E47-9C33-4A8E-A2A2-95F1977E8A12}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Localiza.FrotaVeiculo.Infra.CrossCutting", "Infra\CrossCutting\Localiza.FrotaVeiculo.Infra.CrossCutting\Localiza.FrotaVeiculo.Infra.CrossCutting.csproj", "{F2C22E47-9C33-4A8E-A2A2-95F1977E8A12}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Localiza.FrotaVeiculo.Service", "Service\Localiza.FrotaVeiculo.Service\Localiza.FrotaVeiculo.Service.csproj", "{3D971070-1A36-41CF-8CB1-78612FCDE7F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Localiza.FrotaVeiculo.Service", "Service\Localiza.FrotaVeiculo.Service\Localiza.FrotaVeiculo.Service.csproj", "{3D971070-1A36-41CF-8CB1-78612FCDE7F6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4E1D2BB2-34A4-4514-9C8D-8FCA2EBB750A}"
 	ProjectSection(SolutionItems) = preProject
@@ -32,7 +32,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{0A80D97A-C645-4A9A-B12E-81458DA9F6EE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Localiza.FrotaVeiculo.Test", "Test\Localiza.FrotaVeiculo.Test\Localiza.FrotaVeiculo.Test.csproj", "{D9F230BC-D4BA-4909-A340-1B8856D5E841}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Localiza.FrotaVeiculo.Test", "Test\Localiza.FrotaVeiculo.Test\Localiza.FrotaVeiculo.Test.csproj", "{D9F230BC-D4BA-4909-A340-1B8856D5E841}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sql", "Sql", "{0CCA8DB4-1F13-498A-80C7-3C2F728EFB88}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\Users\weberte.fofano\Desktop\LOCALIZA\CRIAÇÃO DO BANCO DE DADOS.sql = ..\..\Users\weberte.fofano\Desktop\LOCALIZA\CRIAÇÃO DO BANCO DE DADOS.sql
+		..\..\Users\weberte.fofano\Desktop\LOCALIZA\INSERIR_DADOS_BANCO.sql = ..\..\Users\weberte.fofano\Desktop\LOCALIZA\INSERIR_DADOS_BANCO.sql
+		..\..\Users\weberte.fofano\Desktop\LOCALIZA\Localiza.postman_collection.json = ..\..\Users\weberte.fofano\Desktop\LOCALIZA\Localiza.postman_collection.json
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
