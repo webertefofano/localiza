@@ -1,0 +1,431 @@
+{
+	"info": {
+		"_postman_id": "97736047-51bd-4eca-a388-19b3d4f18bef",
+		"name": "Localiza",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Token",
+			"protocolProfileBehavior": {
+				"strictSSL": false
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"Login\": \"local01\",\r\n  \"Password\": \"loc@2022\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44369/api/v1/Token",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44369",
+					"path": [
+						"api",
+						"v1",
+						"Token"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "BuscaVeiculoPelaPlaca",
+			"protocolProfileBehavior": {
+				"strictSSL": false
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44369/api/v1/Veiculo/BuscaVeiculoPelaPlaca/KQO7G03",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44369",
+					"path": [
+						"api",
+						"v1",
+						"Veiculo",
+						"BuscaVeiculoPelaPlaca",
+						"KQO7G03"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AddVeiculo",
+			"protocolProfileBehavior": {
+				"strictSSL": false
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"placa\": \"GSW7576\",\r\n  \"idModelo\": 7,\r\n  \"anoFabricacao\": 2022,\r\n  \"anoModelo\": 2022\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44369/api/v1/Veiculo/AdicionarVeiculo",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44369",
+					"path": [
+						"api",
+						"v1",
+						"Veiculo",
+						"AdicionarVeiculo"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AddReserva",
+			"protocolProfileBehavior": {
+				"strictSSL": false
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"idCliente\": 0,\r\n  \"idVeiculo\": 1,\r\n  \"dataRetirada\": \"2022-02-13T15:20:27.781Z\",\r\n  \"dataPrevistaDevolucao\": \"2022-02-13T15:20:27.781Z\",\r\n  \"dataDevolucao\": \"2022-02-13T15:20:27.781Z\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44369/api/v1/Reserva/AddReserva",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44369",
+					"path": [
+						"api",
+						"v1",
+						"Reserva",
+						"AddReserva"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AddCliente",
+			"protocolProfileBehavior": {
+				"strictSSL": false
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"nome\": \"Weberte\",\r\n  \"cpf\": 1234567890,\r\n  \"dataNacimento\": \"1983-01-29\",\r\n  \"numeroCnh\": 12345,\r\n  \"endereco\": \"RUA FREI CONRADO\",\r\n  \"numero\": \"72\",\r\n  \"bairro\": \"\",\r\n  \"cidade\": \"VRB\",\r\n  \"estado\": \"MG\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44369/api/v1/Cliente/AddCliente",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44369",
+					"path": [
+						"api",
+						"v1",
+						"Cliente",
+						"AddCliente"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdDataRetiradaDataPrevista",
+			"protocolProfileBehavior": {
+				"strictSSL": false
+			},
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"idReserva\": 6,\r\n  \"dataRetirada\": \"2022-02-14T20:04:07.035Z\",\r\n  \"dataPrevistaDevolucao\": \"2022-02-25T20:04:07.035Z\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44369/api/v1/Reserva/UpdDataRetiradaDataPrevista",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44369",
+					"path": [
+						"api",
+						"v1",
+						"Reserva",
+						"UpdDataRetiradaDataPrevista"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ListarCliente",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true,
+				"strictSSL": false
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYmYiOjE2NDQ4OTQ5ODksImV4cCI6MTY0NDkwMjE4OSwiaWF0IjoxNjQ0ODk0OTg5LCJpc3MiOiJMb2NAbGl6QC5jb20iLCJhdWQiOiJMb2NAbGl6QCJ9.wbgsCoH9xDVEcLryO1dc_7jkAvx3H9HfrXIWKql1W90",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44369/api/v1/Cliente/ListarClientes/0",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44369",
+					"path": [
+						"api",
+						"v1",
+						"Cliente",
+						"ListarClientes",
+						"0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ListarVeiculos",
+			"protocolProfileBehavior": {
+				"strictSSL": false
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYmYiOjE2NDQ4OTQ5ODksImV4cCI6MTY0NDkwMjE4OSwiaWF0IjoxNjQ0ODk0OTg5LCJpc3MiOiJMb2NAbGl6QC5jb20iLCJhdWQiOiJMb2NAbGl6QCJ9.wbgsCoH9xDVEcLryO1dc_7jkAvx3H9HfrXIWKql1W90",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44369/api/v1/Veiculo/ListarVeiculos/7/2",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44369",
+					"path": [
+						"api",
+						"v1",
+						"Veiculo",
+						"ListarVeiculos",
+						"7",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ListaReservasDoCliente",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true,
+				"strictSSL": false
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44369/api/v1/Cliente/ListarClientes/{cpf}/{nome}",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44369",
+					"path": [
+						"api",
+						"v1",
+						"Cliente",
+						"ListarClientes",
+						"{cpf}",
+						"{nome}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ListaReservasPorDataRetirada",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true,
+				"strictSSL": false
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44369/api/v1/Reserva/ListaReservasPorDataRetirada/{dataInicio}/{dataFim}",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44369",
+					"path": [
+						"api",
+						"v1",
+						"Reserva",
+						"ListaReservasPorDataRetirada",
+						"{dataInicio}",
+						"{dataFim}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ListaPlacasVencidas",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true,
+				"strictSSL": false
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44369/api/v1/Reserva/ListaPlacasVencidas",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44369",
+					"path": [
+						"api",
+						"v1",
+						"Reserva",
+						"ListaPlacasVencidas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdDataDevolucao",
+			"protocolProfileBehavior": {
+				"strictSSL": false
+			},
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"idReserva\": 6,\r\n  \"dataDevolucao\": \"2022-02-14T20:04:07.035Z\"  \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44369/api/v1/Reserva/UpdDataDevolucao",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44369",
+					"path": [
+						"api",
+						"v1",
+						"Reserva",
+						"UpdDataDevolucao"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
